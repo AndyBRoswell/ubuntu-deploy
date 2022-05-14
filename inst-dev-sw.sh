@@ -9,7 +9,7 @@ deb [trusted=true] http://mirrors.ustc.edu.cn/ubuntu stable-updates main contrib
 # deb [trusted=true] http://mirrors.ustc.edu.cn/ubuntu stable-proposed-updates main contrib non-free
 # deb-src [trusted=true] http://mirrors.ustc.edu.cn/ubuntu stable-proposed-updates main contrib non-free
 "
-echo $extra_mirror >> /etc/apt/sources.list
+echo "$extra_mirror" >> /etc/apt/sources.list
 # sudo cp sources.list /etc/apt/sources.list
 
 # Before installing .NET, add the Microsoft package signing key to list of trusted keys and add the pkg repo.
