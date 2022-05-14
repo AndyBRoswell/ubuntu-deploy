@@ -1,5 +1,6 @@
 # update repo
 # add repo
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 sudo cp sources.list /etc/apt/sources.list
 
 # Before installing .NET, add the Microsoft package signing key to list of trusted keys and add the pkg repo.
