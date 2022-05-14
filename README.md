@@ -7,7 +7,7 @@ sudo apt install git # if you didn't install git
 
 git clone https://github.com/AndyBRoswell/ubuntu-deploy.git
 chmod +x ubuntu-deploy/run.sh
-sudo sh ubuntu-deploy/run.sh
+sudo ubuntu-deploy/run.sh
 ```
 
 # Features
