@@ -16,8 +16,8 @@ sudo apt upgrade
 sudo apt install -y gcc g++ clang llvm gdb lldb make cmake
 
 # Qt prerequisites
-sudo apt install libgl1-mesa-dev
-sudo apt install g++ make libglib2.0-dev libsm-dev libxrender-dev libfontconfig1-dev libxext-dev libfreetype6-dev libx11-dev libxcursor-dev libxfixes-dev libxft-dev libxi-dev libxrandr-dev
+sudo apt install -y libgl1-mesa-dev
+sudo apt install -y g++ make libglib2.0-dev libsm-dev libxrender-dev libfontconfig1-dev libxext-dev libfreetype6-dev libx11-dev libxcursor-dev libxfixes-dev libxft-dev libxi-dev libxrandr-dev
 
 # Python toolchains
 sudo apt install -y python3-pip
@@ -27,10 +27,10 @@ sudo apt install -y python3-pip
 
 # .NET toolchains
 # Install the SDK
-sudo apt-get install -y apt-transport-https
-sudo apt-get install -y dotnet-sdk-6.0
-sudo apt-get install -y aspnetcore-runtime-6.0
-sudo apt-get install -y dotnet-runtime-6.0
+sudo apt install -y apt-transport-https
+sudo apt install -y dotnet-sdk-6.0
+sudo apt install -y aspnetcore-runtime-6.0
+sudo apt install -y dotnet-runtime-6.0
 
 # text editor
 sudo snap install code --classic    # Visual Studio Code
