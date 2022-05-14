@@ -6,7 +6,7 @@ Automatically install the essentials on Ubuntu.
 sudo apt install git # if you didn't install git
 
 git clone https://github.com/AndyBRoswell/ubuntu-deploy.git
-sudo ubuntu-deploy/run.sh
+sudo sh ubuntu-deploy/run.sh
 ```
 
 # Features
