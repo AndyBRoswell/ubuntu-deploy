@@ -1,5 +1,5 @@
 # ubuntu-deploy
-Automatically install the essentials on Ubuntu.
+Automatically install the essentials for developers on Ubuntu.
 
 # Download and Run
 ```bash
@@ -24,7 +24,7 @@ alias cd....='cd ../../../..'
 
 - Consolas
 
-## Essentials for developers
+## Essentials for Developers
 
 ### Mirrors
 - USTC Mirror
