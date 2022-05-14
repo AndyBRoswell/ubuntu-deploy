@@ -1,7 +1,16 @@
 # update repo
 # add repo
-sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
-sudo cp sources.list /etc/apt/sources.list
+# sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+extra_mirror="deb [trusted=true] http://mirrors.ustc.edu.cn/ubuntu stable main contrib non-free
+# deb-src [trusted=true] http://mirrors.ustc.edu.cn/ubuntu stable main contrib non-free
+deb [trusted=true] http://mirrors.ustc.edu.cn/ubuntu stable-updates main contrib non-free
+# deb-src [trusted=true] http://mirrors.ustc.edu.cn/ubuntu stable-updates main contrib non-free
+
+# deb [trusted=true] http://mirrors.ustc.edu.cn/ubuntu stable-proposed-updates main contrib non-free
+# deb-src [trusted=true] http://mirrors.ustc.edu.cn/ubuntu stable-proposed-updates main contrib non-free
+"
+echo $extra_mirror >> /etc/apt/sources.list
+# sudo cp sources.list /etc/apt/sources.list
 
 # Before installing .NET, add the Microsoft package signing key to list of trusted keys and add the pkg repo.
 wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
