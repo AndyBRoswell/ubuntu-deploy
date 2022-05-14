@@ -29,7 +29,7 @@ alias cd....='cd ../../../..'
 ### Mirrors
 - USTC Mirror
 
-### Languages
+### Languages and Frameworks
 - C++
   - Qt
 - Python
