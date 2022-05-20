@@ -55,6 +55,9 @@ sudo snap install rider --classic
 # sudo snap install dotMemory --classic
 # sudo snap install dotTrace --classic
 
+# Docker
+sudo snap install docker
+
 # update repo again
 sudo apt update
 sudo apt upgrade
