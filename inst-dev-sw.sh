@@ -31,6 +31,7 @@ sudo apt install -y g++ make libglib2.0-dev libsm-dev libxrender-dev libfontconf
 
 # Python toolchains
 sudo apt install -y python3-pip
+sudo apt install -y python3-venv
 
 # Java toolchains
 # sudo apt install -y openjdk-17-jre-headless
