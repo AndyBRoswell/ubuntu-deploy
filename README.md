@@ -42,3 +42,8 @@ alias cd....='cd ../../../..'
 - IntelliJ IDEA
 - PyCharm
 - Rider
+
+## Code Styles of JetBrains IDE
+- CLion
+- IntelliJ IDEA
+
